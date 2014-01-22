@@ -1,0 +1,45 @@
+package TestingSystem;
+
+message question_msg {
+required int32 id = 1;
+required string title = 2;
+required string body = 3;
+}
+
+message answer_msg {
+required int32 id = 1;
+required string body = 2;
+required int32 correct = 4;
+required int32 q_id = 3;
+}
+
+message student_msg
+{
+required int32 id = 1;
+required string name = 2;
+required int32 course = 3;
+required int32 group_id = 4;
+
+}
+
+message group_msg
+{
+required int32 id = 1;
+required string name = 2;
+}
+
+
+message subject_msg
+{
+required int32 id = 1;
+required string name = 2;
+required int32 proffesor_id = 3;
+}
+
+message result_msg
+{
+required int32 mark = 2;
+required int32 points = 3;
+required string name = 4;
+required int32 group_id = 5;
+}

@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Test.h"
-#include "Variant.h"
+#include "Test.cpp"
+#include "Variant.cpp"
 #include <string.h>
 #include <fstream>
 #include "TestingSystem.pb.h"
-#include "Group.h"
+#include "Group.cpp"
 #include "time.h"
 
 using namespace std;
